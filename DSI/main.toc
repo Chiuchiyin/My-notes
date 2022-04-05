@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {1}Setting things up}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Installing Python and Jupyter Notebook}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Command Line}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}How to Access Terminal}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Shell Commands}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Navigating with Terminal}{3}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Shell Demonstrations}{3}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}GIT}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Python Variables and Data Types}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Control Flow}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conditional Statement}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Loop}{7}{section.3.2}%
+\contentsline {chapter}{\numberline {4}List and Dictionary}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Numpy and Matplotlib}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Linear Algebra}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Numpy}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Matplotlib}{13}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Pandas}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction to Pandas}{15}{section.6.1}%

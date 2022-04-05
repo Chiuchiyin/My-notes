@@ -1,0 +1,29 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}% http://ctan.org/pkg/amsmath
+
+\begin{document}
+
+\author{Kevin Juandi \\ email: \href{mailto:kjuandi@gmail.com}{kjuandi@gmail.com}}
+\title{DSI Notes}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+
+\backmatter
+\bibliography{citation} 
+\bibliographystyle{ieeetr}
+% bibliography, glossary and index would go here.
+
+\end{document}
