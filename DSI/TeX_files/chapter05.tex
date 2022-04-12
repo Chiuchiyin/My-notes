@@ -131,8 +131,94 @@ Thus
 		0& 1 
 	\end{bmatrix}
 \end{equation}
-\noindent Matrices could also be used to solve systems of equation.
-
+\noindent Matrices could also be used to solve systems of equation. Let us solve this systems of equation with matrix operation.
+\begin{equation}
+\begin{aligned}
+	2\, x_1 + 1\, x_2 &=& 3\\
+	5\, x_1 + 3\, x_2 &=& 8
+\end{aligned}
+\end{equation}
+\noindent Which we can rewrite as
+\begin{equation}
+\left(
+\begin{array}{cc}
+	2&1\\
+	5&3
+\end{array}
+\right)
+\left(
+\begin{array}{c}
+	x_1\\
+	x_2 
+\end{array}
+\right)
+=
+\left(
+\begin{array}{c}
+	3\\
+	8 
+\end{array}
+\right)
+\end{equation}
+\noindent Using inverse matrix, we get
+\begin{equation}
+	\begin{aligned}
+	\left(
+	\begin{array}{cc}
+		2&1\\
+		5&3
+	\end{array}
+	\right)^{-1}
+	\left(
+	\begin{array}{c}
+		3\\
+		8 
+	\end{array}
+	\right)
+	=
+	\left(
+	\begin{array}{c}
+	x_1\\
+	x_2 
+	\end{array}
+	\right)\\
+	\left(
+	\begin{array}{cc}
+		2&1\\
+		5&3
+	\end{array}
+	\right)^{-1}
+	\left(
+	\begin{array}{c}
+		3\\
+		8 
+	\end{array}
+	\right)
+	=
+	\left(
+	\begin{array}{c}
+		x_1\\
+		x_2 
+	\end{array}
+	\right)
+	\end{aligned}
+\end{equation}
+\noindent And thus
+\begin{equation}
+	\left(
+	\begin{array}{c}
+		x_1\\
+		x_2 
+	\end{array}
+	\right)
+	=
+	\left(
+	\begin{array}{c}
+		1\\
+		1 
+	\end{array}
+	\right)
+\end{equation}
 \section{Numpy}
 Numpy is a python library for handling large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 \section{Matplotlib}
