@@ -140,87 +140,67 @@ Thus
 \end{equation}
 \noindent Which we can rewrite as
 \begin{equation}
-\left(
-\begin{array}{cc}
+\begin{bmatrix}
 	2&1\\
 	5&3
-\end{array}
-\right)
-\left(
-\begin{array}{c}
+\end{bmatrix}
+\begin{bmatrix}
 	x_1\\
 	x_2 
-\end{array}
-\right)
+\end{bmatrix}
 =
-\left(
-\begin{array}{c}
+\begin{bmatrix}
 	3\\
 	8 
-\end{array}
-\right)
+\end{bmatrix}
 \end{equation}
 \noindent Using inverse matrix, we get
 \begin{equation}
 	\begin{aligned}
-	\left(
-	\begin{array}{cc}
+	\begin{bmatrix}
 		2&1\\
 		5&3
-	\end{array}
-	\right)^{-1}
-	\left(
-	\begin{array}{c}
+	\end{bmatrix}^{-1}
+	\begin{bmatrix}
 		3\\
 		8 
-	\end{array}
-	\right)
+	\end{bmatrix}
 	=
-	\left(
-	\begin{array}{c}
+	\begin{bmatrix}
 	x_1\\
 	x_2 
-	\end{array}
-	\right)\\
-	\left(
-	\begin{array}{cc}
-		2&1\\
-		5&3
-	\end{array}
-	\right)^{-1}
-	\left(
-	\begin{array}{c}
+	\end{bmatrix}\\
+	\begin{bmatrix}
+		3&-1\\
+		-5&2
+	\end{bmatrix}
+	\begin{bmatrix}
 		3\\
 		8 
-	\end{array}
-	\right)
+	\end{bmatrix}
 	=
-	\left(
-	\begin{array}{c}
+	\begin{bmatrix}
 		x_1\\
 		x_2 
-	\end{array}
-	\right)
+	\end{bmatrix}
 	\end{aligned}
 \end{equation}
 \noindent And thus
 \begin{equation}
-	\left(
-	\begin{array}{c}
+	\begin{bmatrix}
 		x_1\\
 		x_2 
-	\end{array}
-	\right)
+	\end{bmatrix}
 	=
-	\left(
-	\begin{array}{c}
+	\begin{bmatrix}
 		1\\
 		1 
-	\end{array}
-	\right)
+	\end{bmatrix}
 \end{equation}
 \section{Numpy}
 Numpy is a python library for handling large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+
+This time we would only focus on matrix operations.
 \section{Matplotlib}
 will be image intensive, set a folder for that
 \section{Seaborn}
