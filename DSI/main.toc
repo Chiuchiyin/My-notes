@@ -18,6 +18,9 @@
 \contentsline {section}{\numberline {5.4}Seaborn}{13}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Pandas}{15}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Introduction to Pandas}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}EDA and Data Cleaning}{17}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Grouping}{17}{section.6.3}%
 \contentsline {chapter}{\numberline {7}Object Oriented Programming}{19}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Python Class}{19}{section.7.1}%
 \contentsline {chapter}{\numberline {8}Linear Regression}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}misc unorganized stuffs}{23}{chapter.9}%
