@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.1)  3 MAY 2022 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.1)  10 MAY 2022 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -251,14 +251,15 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box52
 )
-(./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)
-(./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux)
-(./TeX_files/chapter05.aux) (./TeX_files/chapter06.aux
+(./main.aux (./TeX_files/preface.aux) (./TeX_files/chapter01.aux)
+(./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
+(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
+(./TeX_files/chapter06.aux
 
 LaTeX Warning: Label `fig:index' multiply defined.
 
-) (./TeX_files/chapter07.aux) (./TeX_files/chapter08.aux) (./TeX_files/misc.aux
-))
+) (./TeX_files/chapter07.aux) (./TeX_files/chapter08.aux)
+(./TeX_files/chapter09.aux) (./TeX_files/chapter10.aux) (./TeX_files/misc.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -280,7 +281,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 Package hyperref Info: Link coloring OFF on input line 7.
- (c:/tools/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/tools/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (c:/tools/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -315,20 +316,30 @@ LaTeX Warning: No \author given.
 [1
 
 
-
 {c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-(./main.toc [3])
+\openout2 = `./TeX_files/preface.aux'.
+
+
+(./TeX_files/preface.tex) [1
+
+
+] [2
+
+
+
+] (./main.toc [3])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
  [4]
 \openout2 = `./TeX_files/chapter01.aux'.
 
- (./TeX_files/chapter01.tex
+
+(./TeX_files/chapter01.tex
 Chapter 1.
-<Assets/Images/Linux_command-line._Bash._GNOME_Terminal._screenshot.png, id=156
+<Assets/Images/Linux_command-line._Bash._GNOME_Terminal._screenshot.png, id=180
 , 1027.84pt x 770.88pt>
 File: Assets/Images/Linux_command-line._Bash._GNOME_Terminal._screenshot.png Gr
 aphic file (type png)
@@ -336,12 +347,22 @@ aphic file (type png)
 Package pdftex.def Info: Assets/Images/Linux_command-line._Bash._GNOME_Terminal
 ._screenshot.png  used on input line 10.
 (pdftex.def)             Requested size: 195.0pt x 146.24522pt.
-[1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 
+      [1
 
 
 
- <./Assets/Images/Linux_command-line._Bash._GNOME_Terminal._screenshot.png>]
-[2]) [3]
+ <./Assets/Images/Linux_command-line._Bash._GNOME_Terminal._screenshot.png>]pdf
+TeX warning (ext4): destination with the same identifier (name{page.2}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \section
+             {GIT} [2]) [3]
 \openout2 = `./TeX_files/chapter02.aux'.
 
  (./TeX_files/chapter02.tex [4
@@ -351,7 +372,7 @@ Package pdftex.def Info: Assets/Images/Linux_command-line._Bash._GNOME_Terminal
 
 ]
 Chapter 2.
-<Assets/Images/data type/type.jpg, id=177, 182.18062pt x 158.09062pt>
+<Assets/Images/data type/type.jpg, id=198, 182.18062pt x 158.09062pt>
 File: Assets/Images/data type/type.jpg Graphic file (type jpg)
 <use Assets/Images/data type/type.jpg>
 Package pdftex.def Info: Assets/Images/data type/type.jpg  used on input line 5
@@ -397,30 +418,30 @@ Chapter 5.
 
 ]
 Chapter 6.
-<Assets/Images/Pandas/import.jpg, id=243, 146.79843pt x 51.19125pt>
+<Assets/Images/Pandas/import.jpg, id=265, 146.79843pt x 51.19125pt>
 File: Assets/Images/Pandas/import.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/import.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/import.jpg  used on input line 7.
 
 (pdftex.def)             Requested size: 146.79807pt x 51.19112pt.
-<Assets/Images/Pandas/read data.jpg, id=244, 526.21594pt x 40.65187pt>
+<Assets/Images/Pandas/read data.jpg, id=266, 526.21594pt x 40.65187pt>
 File: Assets/Images/Pandas/read data.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/read data.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/read data.jpg  used on input line
  16.
 (pdftex.def)             Requested size: 390.0pt x 30.13028pt.
-<Assets/Images/Pandas/drugs.jpg, id=245, 765.6103pt x 145.29282pt>
+<Assets/Images/Pandas/drugs.jpg, id=267, 765.6103pt x 145.29282pt>
 File: Assets/Images/Pandas/drugs.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/drugs.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/drugs.jpg  used on input line 24.
 
 (pdftex.def)             Requested size: 390.0pt x 74.01189pt.
-<Assets/Images/Pandas/head.jpg, id=246, 151.3153pt x 225.84375pt>
+<Assets/Images/Pandas/head.jpg, id=268, 151.3153pt x 225.84375pt>
 File: Assets/Images/Pandas/head.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/head.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/head.jpg  used on input line 33.
 (pdftex.def)             Requested size: 151.31493pt x 225.84319pt.
-<Assets/Images/Pandas/head10.jpg, id=247, 135.50626pt x 296.60812pt>
+<Assets/Images/Pandas/head10.jpg, id=269, 135.50626pt x 296.60812pt>
 File: Assets/Images/Pandas/head10.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/head10.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/head10.jpg  used on input line 34
@@ -428,25 +449,25 @@ Package pdftex.def Info: Assets/Images/Pandas/head10.jpg  used on input line 34
 (pdftex.def)             Requested size: 135.5059pt x 296.60739pt.
 [15 <./Assets/Images/Pandas/import.JPG> <./Assets/Images/Pandas/read data.JPG> 
 <./Assets/Images/Pandas/drugs.JPG>]
-<Assets/Images/Pandas/tail.jpg, id=256, 127.97812pt x 240.9pt>
+<Assets/Images/Pandas/tail.jpg, id=277, 127.97812pt x 240.9pt>
 File: Assets/Images/Pandas/tail.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/tail.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/tail.jpg  used on input line 43.
 (pdftex.def)             Requested size: 127.9778pt x 240.8994pt.
-<Assets/Images/Pandas/tail11.jpg, id=257, 172.39406pt x 264.99pt>
+<Assets/Images/Pandas/tail11.jpg, id=278, 172.39406pt x 264.99pt>
 File: Assets/Images/Pandas/tail11.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/tail11.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/tail11.jpg  used on input line 44
 .
 (pdftex.def)             Requested size: 172.39363pt x 264.98935pt.
  [16 <./Assets/Images/Pandas/head.JPG> <./Assets/Images/Pandas/head10.JPG>]
-<Assets/Images/Pandas/index_duplicates.jpg, id=263, 231.86626pt x 46.67438pt>
+<Assets/Images/Pandas/index_duplicates.jpg, id=284, 231.86626pt x 46.67438pt>
 File: Assets/Images/Pandas/index_duplicates.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/index_duplicates.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/index_duplicates.jpg  used on inp
 ut line 54.
 (pdftex.def)             Requested size: 231.86568pt x 46.67424pt.
-<Assets/Images/Pandas/shape.jpg, id=264, 298.11375pt x 53.44969pt>
+<Assets/Images/Pandas/shape.jpg, id=285, 298.11375pt x 53.44969pt>
 File: Assets/Images/Pandas/shape.jpg Graphic file (type jpg)
 <use Assets/Images/Pandas/shape.jpg>
 Package pdftex.def Info: Assets/Images/Pandas/shape.jpg  used on input line 63.
@@ -475,40 +496,61 @@ Chapter 7.
 ]
 Chapter 8.
 ) [21]
-\openout2 = `./Tex_files/misc.aux'.
+\openout2 = `./Tex_files/chapter09.aux'.
 
- (./TeX_files/misc.tex [22
+ (./TeX_files/chapter09.tex [22
 
 
 
 
 ]
 Chapter 9.
-) [23] [24
+) [23]
+\openout2 = `./Tex_files/chapter10.aux'.
+
+ (./TeX_files/chapter10.tex [24
 
 
 
-] (./main.bbl) [25
 
-] (./main.aux (./TeX_files/chapter01.aux)
-(./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
-(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
-(./TeX_files/chapter06.aux) (./TeX_files/chapter07.aux)
-(./TeX_files/chapter08.aux) (./TeX_files/misc.aux))
+]
+Chapter 10.
+) [25]
+\openout2 = `./Tex_files/misc.aux'.
+
+ (./TeX_files/misc.tex [26
+
+
+
+
+]
+Chapter 11.
+) [27] [28
+
+
+
+] (./main.bbl) [29
+
+] (./main.aux (./TeX_files/preface.aux)
+(./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)
+(./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux)
+(./TeX_files/chapter05.aux) (./TeX_files/chapter06.aux)
+(./TeX_files/chapter07.aux) (./TeX_files/chapter08.aux)
+(./TeX_files/chapter09.aux) (./TeX_files/chapter10.aux) (./TeX_files/misc.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B56ADFFDC35125938C9302D04263DD44;3626.
+(rerunfilecheck)             Checksum: 2C2A560EFF59C5CF63EFEC804E2380BD;3929.
  ) 
 Here is how much of TeX's memory you used:
- 8587 strings out of 480559
- 130305 string characters out of 5901528
- 435257 words of memory out of 5000000
- 25951 multiletter control sequences out of 15000+600000
+ 8636 strings out of 480559
+ 131393 string characters out of 5901528
+ 436295 words of memory out of 5000000
+ 25972 multiletter control sequences out of 15000+600000
  411365 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,13n,66p,424b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,66p,424b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/to
 ols/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tools/Tiny
 TeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tools/TinyTeX/texm
@@ -521,10 +563,10 @@ pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/
 tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/tools/Tin
 yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/tools/TinyTeX/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (29 pages, 462222 bytes).
+Output written on main.pdf (35 pages, 464927 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

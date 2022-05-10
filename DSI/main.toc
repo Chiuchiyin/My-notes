@@ -1,3 +1,4 @@
+\contentsline {chapter}{Preface}{i}{chapter*.1}%
 \contentsline {chapter}{\numberline {1}Setting things up}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Installing Python and Jupyter Notebook}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The Command Line}{1}{section.1.2}%
@@ -23,4 +24,6 @@
 \contentsline {chapter}{\numberline {7}Object Oriented Programming}{19}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Python Class}{19}{section.7.1}%
 \contentsline {chapter}{\numberline {8}Linear Regression}{21}{chapter.8}%
-\contentsline {chapter}{\numberline {9}misc unorganized stuffs}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Classification}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Web Scraping}{25}{chapter.10}%
+\contentsline {chapter}{\numberline {11}misc unorganized stuffs}{27}{chapter.11}%
