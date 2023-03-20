@@ -3,11 +3,13 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath}% http://ctan.org/pkg/amsmath
-
+\usepackage{amsthm}
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{example}[thm]{Example}
 \begin{document}
 
 \author{Kevin Juandi \\ email: \href{mailto:kjuandi@gmail.com}{kjuandi@gmail.com}}
-\title{DSI Notes}
+\title{CM 1015 Computational Mathematics}
 \maketitle
 \frontmatter
 \include{./TeX_files/preface}
@@ -25,6 +27,8 @@
 \include{./Tex_files/chapter08}
 \include{./Tex_files/chapter09}
 \include{./Tex_files/chapter10}
+\include{./Tex_files/chapter11}
+\include{./Tex_files/chapter12}
 \include{./Tex_files/misc}
 
 \backmatter
