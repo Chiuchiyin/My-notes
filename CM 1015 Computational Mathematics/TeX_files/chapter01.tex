@@ -52,16 +52,45 @@ Consider the binary number $110101_2$. As the base is 2, this means that power o
 
 \section{Number Conversion}
 \subsection{Converting from Decimal to Other Number Base}
-\noindent The no-brainer way is to divide the number by the base, the remainder would be the last digit of the new number base. Keep dividing the product until it is smaller than the number base. For example:
-
-
-
-
-
-
+\noindent The no-brainer way is to divide the number by the base, the remainder would be the last digit of the new number base. Keep dividing the quotient until it is smaller than the number base. Let us convert $253_{10}$ as example.
+\begin{equation} \label{eq5}
+\begin{split}
+2{\overline{\smash{\big)}\,253\phantom{)}}} & = 126 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,126\phantom{)}}} & = 63 \text{ with remainder }0\\
+2{\overline{\smash{\big)}\,63\phantom{)}}} & = 31 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,31\phantom{)}}} & = 15 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,15\phantom{)}}} & = 7 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,7\phantom{)}}} & = 3 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,3\phantom{)}}} & = 1 \text{ with remainder }1\\
+2{\overline{\smash{\big)}\,1\phantom{)}}} & = 0 \text{ with remainder }1
+\end{split}
+\end{equation} 
+Thus, $253_{10}$ is $11111101_2$ in binary. We could do the same to other number bases. \newline
+Another method is by listing the powers of the base, compare and subtract. Using the same number as example.
+\begin{center}
+\begin{tabular}{ c c c}
+ $2^0 = 1$ & $2^1 = 2$ & $2^2 = 4$ \\ 
+ $2^3 = 8$ & $2^4 = 16$ & $2^5 = 32$ \\  
+ $2^6 = 64$ & $2^7 = 128$ & $2^8 = 256$  
+\end{tabular}
+\end{center}
+From here we compare the number that we are going to convert with the list:
+\begin{equation} \label{eq6}
+\begin{split}
+253 - 1(128) & = 125  \\
+125 - 1(64) & = 61 \\
+61 - 1(32) & = 29 \\ 
+29 - 1(16) & = 13 \\
+13 - 1(8) & = 5 \\
+5 - 1(4) & = 1 \\
+1 - 0(2) & = 1\\
+1- 1(1) & = 0
+\end{split}
+\end{equation} 
+Thus, $253_{10}$ is $11111101_2$ in binary. Like the other method, we can also do this to convert to other number bases.
 \subsection{Conversion with Binary Number}
 \noindent Converting binary numbers to Octal or Hexadecimal and vice versa is very straightforward. It can be performed without converting to Decimal first. Let us use number $11100110_2$ as example:
-\begin{equation} \label{eq5}
+\begin{equation} \label{eq7}
 \begin{split}
 \underbrace{11}_\text{3}\underbrace{100}_\text{4}\underbrace{110}_\text{6} & = 346_8\\
 \underbrace{1110}_\text{E}\underbrace{0110}_\text{6} & = \text{E}6_{16}
@@ -73,6 +102,24 @@ Converting non-integer number might look counterintuitive and intimidating. It i
 17.375 & = 10 + 7 + 0.3+0.07+0.005 \\
 & = 1(10^1) + 7(10^0) + 3(10^{-1}) + 7(10^{-2})+5(10^{-3})
 \end{split}\]
-
+Converting to binary, $17_{10} = 10001_2$. But how about the decimal point?
+We multiply them by two until we are left with whole number
+\begin{equation} \label{eq8}
+\begin{split}
+0.375 \times 2  = 0.75 = 0+0.75 & \text{ we have 0 at power }-1\\
+0.75 \times 2  = 1.5 = 1+0.5 & \text{ we have 1 at power }-2\\
+0.5 \times 2  = 1.0 = 1 & \text{ we have 1 at power }-3
+\end{split}
+\end{equation} 
+Thus, $17.375_{10} = 10001.011_2$\newline
+The reverse is much simpler.
+\begin{equation} \label{eq2}
+\begin{split}
+1101.101_2 & = 1(2^3)+1(2^2)+0(2^1)+1(2^0)+1(2^{-1})+0(2^{-2})+1(2^{-3}) \\
+& = 1(8)+1(4)+0(2)+1(1)+1(0.5)+0(0.25)+1(0.125) \\
+& = 8 + 4 + 1+ 0.5+0.125 \\
+& = 13.625_{10}
+\end{split}
+\end{equation} 
 \section{Operations with Binary Number}
 \section{Common Pitfalls}
