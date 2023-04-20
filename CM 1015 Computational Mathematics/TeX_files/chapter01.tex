@@ -41,9 +41,9 @@ Consider the binary number $110101_2$. As the base is 2, this means that power o
 
 \noindent\large\textbf{Hexadecimal System}\newline
 \normalsize Hexadecimal system use 16 as a base. The digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F. Example:
-\begin{equation} \label{eq3}
+\begin{equation} \label{eq4}
 \begin{split}
-93A_{16} & = 9(16^2)+3(16^1)+A(16^0) \\
+93\text{A}_{16} & = 9(16^2)+3(16^1)+\text{A}(16^0) \\
 & = 9(256)+3(16)+10(1) \\
 & = 2304+48+10 \\
 & = 2362_{10}
@@ -51,5 +51,28 @@ Consider the binary number $110101_2$. As the base is 2, this means that power o
 \end{equation} 
 
 \section{Number Conversion}
+\subsection{Converting from Decimal to Other Number Base}
+\noindent The no-brainer way is to divide the number by the base, the remainder would be the last digit of the new number base. Keep dividing the product until it is smaller than the number base. For example:
+
+
+
+
+
+
+\subsection{Conversion with Binary Number}
+\noindent Converting binary numbers to Octal or Hexadecimal and vice versa is very straightforward. It can be performed without converting to Decimal first. Let us use number $11100110_2$ as example:
+\begin{equation} \label{eq5}
+\begin{split}
+\underbrace{11}_\text{3}\underbrace{100}_\text{4}\underbrace{110}_\text{6} & = 346_8\\
+\underbrace{1110}_\text{E}\underbrace{0110}_\text{6} & = \text{E}6_{16}
+\end{split}
+\end{equation}
+\subsection{Non-integer Number Conversion}
+Converting non-integer number might look counterintuitive and intimidating. It is actually rather simple. Let us convert $17.375_{10}$ to binary.
+\[\begin{split}
+17.375 & = 10 + 7 + 0.3+0.07+0.005 \\
+& = 1(10^1) + 7(10^0) + 3(10^{-1}) + 7(10^{-2})+5(10^{-3})
+\end{split}\]
 
 \section{Operations with Binary Number}
+\section{Common Pitfalls}

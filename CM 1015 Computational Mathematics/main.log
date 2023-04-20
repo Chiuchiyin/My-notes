@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.31)  20 APR 2023 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.31)  20 APR 2023 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,59 +242,59 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box52
+\extrarowheight=\dimen155
+\NC@list=\toks24
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box53
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
-\thm@preskip=\skip53
-\thm@postskip=\skip54
-\thm@headsep=\skip55
-\dth@everypar=\toks29
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks30
 )
 \c@thm=\count282
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
-\l__pdf_internal_box=\box52
+\l__pdf_internal_box=\box54
 )
-(./main.aux (./TeX_files/preface.aux) (./TeX_files/chapter01.aux
-
-LaTeX Warning: Label `eq3' multiply defined.
-
-) (./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
-(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
-(./TeX_files/chapter06.aux) (./Tex_files/chapter07.aux)
-(./Tex_files/chapter08.aux) (./Tex_files/chapter09.aux)
-(./Tex_files/chapter10.aux) (./Tex_files/misc.aux))
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-Package hyperref Info: Link coloring OFF on input line 9.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package hyperref Info: Link coloring OFF on input line 10.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
@@ -304,9 +304,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -315,16 +315,16 @@ LaTeX Info: Redefining \nameref on input line 9.
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count285
-\scratchdimen=\dimen154
-\scratchbox=\box53
+\scratchdimen=\dimen156
+\scratchbox=\box55
 \nofMPsegments=\count286
 \nofMParguments=\count287
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks31
 \MPscratchCnt=\count288
-\MPscratchDim=\dimen155
+\MPscratchDim=\dimen157
 \MPnumerator=\count289
 \makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -350,17 +350,19 @@ e
 
 
 
-] (./main.toc)
+]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] [4
+[3] [4
 
 ]
 \openout2 = `./TeX_files/chapter01.aux'.
 
-
-(./TeX_files/chapter01.tex
+ (./TeX_files/chapter01.tex
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -376,103 +378,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \include{./TeX_files/chapter01}
-                                     [2]
-\openout2 = `./TeX_files/chapter02.aux'.
-
- (./TeX_files/chapter02.tex
-Chapter 2.
-) [3
-
-
-
-
-]
-\openout2 = `./TeX_files/chapter03.aux'.
-
- (./TeX_files/chapter03.tex [4
-
-
-
-
-]
-Chapter 3.
-) [5]
-\openout2 = `./TeX_files/chapter04.aux'.
-
- (./TeX_files/chapter04.tex [6
-
-
-
-
-]
-Chapter 4.
-) [7]
-\openout2 = `./TeX_files/chapter05.aux'.
-
- (./TeX_files/chapter05.tex [8
-
-
-
-
-]
-Chapter 5.
-) [9]
-\openout2 = `./TeX_files/chapter06.aux'.
-
- (./TeX_files/chapter06.tex [10
-
-
-
-
-]
-Chapter 6.
-) [11]
-\openout2 = `./Tex_files/chapter07.aux'.
-
- (./Tex_files/chapter07.tex [12
-
-
-
-
-]
-Chapter 7.
-) [13]
-\openout2 = `./Tex_files/chapter08.aux'.
-
- (./Tex_files/chapter08.tex [14
-
-
-
-
-]
-Chapter 8.
-) [15]
-\openout2 = `./Tex_files/chapter09.aux'.
-
- (./Tex_files/chapter09.tex [16
-
-
-
-
-]
-Chapter 9.
-) [17]
-\openout2 = `./Tex_files/chapter10.aux'.
-
- (./Tex_files/chapter10.tex [18
-
-
-
-
-]
-Chapter 10.
-) [19]
+l.21 \include{./TeX_files/chapter01}
+                                     [2] [3]
 \openout2 = `./Tex_files/misc.aux'.
 
 
 No file ./Tex_files/misc.tex.
-[20
+[4
 
 
 
@@ -483,39 +395,43 @@ No file ./Tex_files/misc.tex.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [21
+) [5
 
 ] (./main.aux (./TeX_files/preface.aux) (./TeX_files/chapter01.aux)
-(./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
-(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
-(./TeX_files/chapter06.aux) (./Tex_files/chapter07.aux)
-(./Tex_files/chapter08.aux) (./Tex_files/chapter09.aux)
-(./Tex_files/chapter10.aux) (./Tex_files/misc.aux))
+(./Tex_files/misc.aux))
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C44C4F4DD17C0ACF81C8C6029544076;2332.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  647E6E29103FDA266E20B0F6F7A99572;1654.
  ) 
 Here is how much of TeX's memory you used:
- 9293 strings out of 478268
- 152564 string characters out of 5846346
- 436026 words of memory out of 5000000
- 27271 multiletter control sequences out of 15000+600000
+ 9064 strings out of 478268
+ 143444 string characters out of 5846346
+ 438515 words of memory out of 5000000
+ 27130 multiletter control sequences out of 15000+600000
  476857 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,63p,717b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,22n,63p,717b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (27 pages, 104682 bytes).
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (11 pages, 110343 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
