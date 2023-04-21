@@ -123,7 +123,7 @@ The reverse is much simpler.
 \end{equation} 
 \section{Operations with Binary Number}
 \noindent\large\textbf{Addition}\newline
-\normalsize Addition is rather straightforward, just like with decimal numbers. Here we use $11001001_2$ and $11111111_2$ as example. In decimal they are 201 and 255 respectively. \newline
+\normalsize Addition is rather straightforward, just like with decimal numbers. Here we use $11001001_2$ and $11111111_2$ as example. In decimal they are 201 and 255 respectively.
 \begin{equation}\label{eq10}
 	\begin{array}{B3}
 		\carry 0 & \carry 1\carry 1\carry 0\carry 0 & \carry 1\carry 0\carry 01 \\
@@ -136,7 +136,7 @@ Or simply
 \underbrace{11001001}_\text{201}+\underbrace{11111111}_\text{255} = \underbrace{1 1100 1000}_\text{456}
 \end{equation}
 \noindent\large\textbf{Subtraction}\newline
-\normalsize Likewise for subtraction\newline
+\normalsize Likewise for subtraction, between $111 0011_2$ and $101 0010_2$
 \begin{equation}\label{eq12}
 	\begin{array}{B3}
 		 1  1 1 &  0 0 11\\
@@ -150,8 +150,23 @@ Or simply
 	\underbrace{1110011}_\text{115}-\underbrace{1010010}_\text{82} = \underbrace{100001}_\text{33}
 \end{equation}
 \noindent\large\textbf{Multiplication}\newline
-\normalsize The numbers that we commonly used are based on 10.\newline
+\normalsize Multiplication is essentially addition done multiple times. Let us have multiplication of $1100_2$ and $1111_2$. I would skip the carry so it wouldn't look too cramped.
+\begin{equation}\label{eq14}
+	\begin{array}{c}
+		\phantom{\times9999}1100\\
+		\underline{\times\phantom{9999}1111}\\
+		\phantom{\times9999}1100\\
+		\phantom{\times999}1100\phantom9\\
+		\phantom{\times99}1100\phantom{99}\\
+		\underline{\phantom{\times9}1100\phantom{999}}\\
+		\phantom\times10110100
+	\end{array}
+\end{equation}
+Or simply
+\begin{equation} \label{eq15}
+	\underbrace{1100}_\text{12}-\underbrace{1111}_\text{15} = \underbrace{10110100}_\text{180}
+\end{equation}
 \noindent\large\textbf{Division}\newline
-\normalsize \newline
+\normalsize Division is perhaps the one that feels the most unnatural and most likely to cause mistakes. Let us do this with $11100110_2$ divided with $110_2$ as example.
 
 \section{Common Pitfalls}
