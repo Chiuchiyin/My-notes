@@ -2,11 +2,15 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{graphicx}
-\usepackage{amsmath, array}% http://ctan.org/pkg/amsmath
+\usepackage{array}
+\usepackage{amsmath}% http://ctan.org/pkg/amsmath
 \usepackage{amsthm}
+\usepackage{xlop}
+\usepackage{mathtools}
 \newtheorem{thm}{Theorem}[chapter]
 \newtheorem{example}[thm]{Example}
-%\newcommand\showdiv[1]{\overline{\smash{\hstretch{.5}{)}}#1}}
+\newcommand*{\carry}[1][1]{\overset{#1}}
+\newcolumntype{B}[1]{r*{#1}{@{\,}r}}
 \begin{document}
 
 \author{Kevin Juandi \\ email: \href{mailto:kjuandi@gmail.com}{kjuandi@gmail.com}}
@@ -20,9 +24,9 @@
 \mainmatter
 \include{./TeX_files/chapter01}
 \include{./TeX_files/chapter02}
-%\include{./TeX_files/chapter03}
-%\include{./TeX_files/chapter04}
-%\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
 %\include{./TeX_files/chapter06}
 %\include{./Tex_files/chapter07}
 %\include{./Tex_files/chapter08}

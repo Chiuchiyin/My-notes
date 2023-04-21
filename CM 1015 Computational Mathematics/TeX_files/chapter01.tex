@@ -89,7 +89,7 @@ From here we compare the number that we are going to convert with the list:
 \end{equation} 
 Thus, $253_{10}$ is $11111101_2$ in binary. Like the other method, we can also do this to convert to other number bases.
 \subsection{Conversion with Binary Number}
-\noindent Converting binary numbers to Octal or Hexadecimal and vice versa is very straightforward. It can be performed without converting to Decimal first. Let us use number $11100110_2$ as example:
+\noindent Converting binary numbers to Octal or Hexadecimal and vice versa are very straightforward. It can be performed without converting to Decimal first. Let us use number $11100110_2$ as example:
 \begin{equation} \label{eq7}
 \begin{split}
 \underbrace{11}_\text{3}\underbrace{100}_\text{4}\underbrace{110}_\text{6} & = 346_8\\
@@ -113,7 +113,7 @@ We multiply them by two until we are left with whole number
 \end{equation} 
 Thus, $17.375_{10} = 10001.011_2$\newline
 The reverse is much simpler.
-\begin{equation} \label{eq2}
+\begin{equation} \label{eq9}
 \begin{split}
 1101.101_2 & = 1(2^3)+1(2^2)+0(2^1)+1(2^0)+1(2^{-1})+0(2^{-2})+1(2^{-3}) \\
 & = 1(8)+1(4)+0(2)+1(1)+1(0.5)+0(0.25)+1(0.125) \\
@@ -123,9 +123,32 @@ The reverse is much simpler.
 \end{equation} 
 \section{Operations with Binary Number}
 \noindent\large\textbf{Addition}\newline
-\normalsize Addition is rather straightforward\newline
+\normalsize Addition is rather straightforward, just like with decimal numbers. Here we use $11001001_2$ and $11111111_2$ as example. In decimal they are 201 and 255 respectively. \newline
+\begin{equation}\label{eq10}
+	\begin{array}{B3}
+		\carry 0 & \carry 1\carry 1\carry 0\carry 0 & \carry 1\carry 0\carry 01 \\
+		{} + 0 &                             1111 &                      1111\\ \hline
+		1 &                             1100 &                      1000\\
+	\end{array}
+\end{equation}
+Or simply
+\begin{equation} \label{eq11}
+\underbrace{11001001}_\text{201}+\underbrace{11111111}_\text{255} = \underbrace{1 1100 1000}_\text{456}
+\end{equation}
 \noindent\large\textbf{Subtraction}\newline
-\normalsize The numbers that we commonly used are based on 10.\newline
+\normalsize Likewise for subtraction\newline
+\begin{equation}\label{eq12}
+	\begin{array}{B3}
+		 1  1 1 &  0 0 11\\
+		{} -                              101 &                      0010\\ 
+		\hline
+		010 &                      0001 \\
+	\end{array}
+\end{equation}
+Or simply
+\begin{equation} \label{eq13}
+	\underbrace{1110011}_\text{115}-\underbrace{1010010}_\text{82} = \underbrace{100001}_\text{33}
+\end{equation}
 \noindent\large\textbf{Multiplication}\newline
 \normalsize The numbers that we commonly used are based on 10.\newline
 \noindent\large\textbf{Division}\newline
