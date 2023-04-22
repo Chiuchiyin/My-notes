@@ -2,6 +2,10 @@
 Reading Materials: \newline
 Croft, A. and R. Davidson \textit{Foundation maths.} (Harlow: Pearson, 2016) 6th edition. \textbf{Chapter 12 Sequences and series.}
 \section{Little Gauss}
+\noindent \textit{Skip this section if you have no interest in casual reading.}
+
+\vspace{5mm} %5mm vertical space
+
 \noindent There is this story that is often told in mathematics classes. While the story itself is likely apocryphal, it likely have some pedagogical value. The story goes this way:
 
 \vspace{5mm} %5mm vertical space
@@ -53,4 +57,51 @@ Croft, A. and R. Davidson \textit{Foundation maths.} (Harlow: Pearson, 2016) 6th
 \begin{equation}
 	\Sigma = \frac{150\cdot(150+1)}{2}= \frac{150\cdot(151)}{2}= \frac{22650}{2}=11325
 \end{equation}
-\noindent This formula is today is still affectionately referred as "Der Kleine Gauss", German for "Little Gauss". Anyone studying higher mathematics would have to prove the validity of the formula.
+\noindent This formula is today is still affectionately referred as "Der Kleine Gauss", German for "Little Gauss". Anyone studying higher mathematics would have to prove the validity of the formula. The formula itself is an arithmetic series. We would learn more about it later.
+
+\section{Sequence}
+A sequence is a set of numbers written down in a specific order. For example, 1,3,4,7,9. There need not be an obvious rule relating to the numbers in the sequence. For example, 9, -11, $\frac{1}{2}$, 32.5 is a sequence.\newline
+A simple way of forming a sequence is to calculate each new term by adding a fixed amount to the previous term. For example, $1,7,13,19, \dots$.\newline
+Such sequence is called arithmetic progression or arithmetic sequence.
+
+\vspace{5mm}
+
+\noindent Geometric progression is a sequence formed by multiplying the previous term by fixed amount. For example, $2,10,50, 250,\dots$.
+
+\vspace{5mm}
+
+\noindent Some sequences continue indefinitely, these are called infinite sequences/ It can happen that as we move along the sequence, the term get closer and closer to a fixed value. For example, $1,\frac{1}{2},\frac{1}{3},\frac{1}{4},\frac{1}{5}, \dots$.\newline
+This sequence can be rewritten in the form of:
+
+\begin{equation}\label{eq3}
+	x_k = \frac{1}{k} \text{ , for } k = 1, 2,3,4,5,\dots
+\end{equation}
+
+\noindent As $k$ get larger and larger, and approaches infinity, $x_k$ get closer and closer to zero. We say that \textit{$\frac{1}{k}$ tends to zero as $k$ tends to infinity} or alternatively, \textit{as k tends to infinity, the limit of the sequence is zero}. We write this down as:
+\begin{equation}\label{eq4}
+\lim_{k \to \infty} \frac{1}{k} = 0
+\end{equation}
+\noindent When a sequence possess a limit, it is said to \textit{converge}, when not, it is said to \textit{diverge}.
+\section{Series}
+\noindent If the terms of a sequence are added the result is known as series. A series is a sum. If the series contains a finite number of terms, we are able to add them all up and obtain the sum.\newline
+
+\vspace{5mm}
+
+\noindent A series is said to \textit{converge} if it has finite sum.
+
+\vspace{5mm}
+
+\noindent The sum of first $n$ terms of an arithmetic series with first term $a$ and common difference $d$ is denoted by $S-n$ and given by
+\begin{equation}\label{eq5}
+S_n = \frac{n}{2}(2a+(n-1)d)
+\end{equation}
+\noindent The sum of first $n$ terms of an geometric series with first term $a$ and common ratio $r$ is denoted by $S-n$ and given by
+\begin{equation}\label{eq6}
+S_n = \frac{a(1-r^n}{1-r} \text{ , for } r \neq 1
+\end{equation}
+\noindent for $n \to \infty$ and $-1<r<1$,
+\begin{equation}\label{eq7}
+S_n = \frac{a}{1-r}
+\end{equation}
+
+\noindent Beware that a converging sequence does not mean it's sum (series) converges. in our example of $x_k = \frac{1}{k}$, $x$ converges to zero as $k$ approaches infinity however, the sum of $x$ does not. This is known as \textit{Harmonic series}. I'm not going to proof it here. You can check yourself \href{https://proofwiki.org/wiki/Harmonic_Series_is_Divergent}{here}.

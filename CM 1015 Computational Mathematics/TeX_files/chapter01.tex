@@ -131,7 +131,6 @@ The reverse is much simpler.
 		1 &                             1100 &                      1000\\
 	\end{array}
 \end{equation}
-Or simply
 \begin{equation} \label{eq11}
 \underbrace{11001001}_\text{201}+\underbrace{11111111}_\text{255} = \underbrace{1 1100 1000}_\text{456}
 \end{equation}
@@ -145,7 +144,6 @@ Or simply
 		010 &                      0001 \\
 	\end{array}
 \end{equation}
-Or simply
 \begin{equation} \label{eq13}
 	\underbrace{1110011}_\text{115}-\underbrace{1010010}_\text{82} = \underbrace{100001}_\text{33}
 \end{equation}
@@ -162,11 +160,29 @@ Or simply
 		\phantom\times10110100
 	\end{array}
 \end{equation}
-Or simply
 \begin{equation} \label{eq15}
 	\underbrace{1100}_\text{12}-\underbrace{1111}_\text{15} = \underbrace{10110100}_\text{180}
 \end{equation}
 \noindent\large\textbf{Division}\newline
 \normalsize Division is perhaps the one that feels the most unnatural and most likely to cause mistakes. Let us do this with $11100110_2$ divided with $110_2$ as example.
-
-\section{Common Pitfalls}
+\begin{equation}\label{eq16}
+\begin{array}{r}
+100110\phantom{)}   \\
+110{\overline{\smash{\big)}\,11100110\phantom{)}}}\\
+\underline{-~\phantom{(}110\phantom{99999)}}\\
+\phantom{\times{99}}10\phantom{9999)}\\ 
+\underline{-~\phantom{()}0\phantom{9999)}}\\ 
+\phantom{\times{99}}100\phantom{999)}\\ 
+\underline{-~\phantom{()}0\phantom{999)}}\\ 
+\phantom{\times{99}}1001\phantom{99)}\\ 
+\underline{-~\phantom{()}110\phantom{99)}}\\ 
+\phantom{\times{999}}111\phantom{9)}\\ 
+\underline{-~\phantom{()}110\phantom{9)}}\\
+\phantom{\times{9999}}10\phantom{)}\\ 
+\underline{-~\phantom{()}0\phantom{)}}\\  
+10\phantom{)}
+\end{array}
+\end{equation}
+\begin{equation} \label{eq17}
+	\underbrace{11100110}_\text{230}\div\underbrace{110}_\text{12} = \underbrace{100110}_\text{38} \text{ with remainder }\underbrace{10}_\text{2}\
+\end{equation}
