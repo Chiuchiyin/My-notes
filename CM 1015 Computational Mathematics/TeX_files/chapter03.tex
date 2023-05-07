@@ -30,6 +30,7 @@ Yan, S.Y. \textit{Number theory for computing.} (Berlin: Springer-Verlag, 2002) 
 \end{equation}
 14 divided by 12 gives 1 with remainder 2, 2 divided by 12 gives 0 with remainder 2.
 \vspace{5mm}
+
 \noindent How about negative numbers? $-17 \mod{12} $ for example:
 \begin{equation}
 \begin{split}
@@ -37,4 +38,32 @@ Yan, S.Y. \textit{Number theory for computing.} (Berlin: Springer-Verlag, 2002) 
  & \equiv 7 \mod{12}
 \end{split}
 \end{equation}
-\section{Operations in Modular Artithmetics}
+\section{Operations in Modular Arithmetics}
+Examples in modulus 12:
+\begin{equation}
+	\begin{split}
+		14+28\equiv 2+4 \equiv 6 & \rightarrow 14+28 \equiv 6\mod{12}\\
+		28-14\equiv 4-2 \equiv 2 & \rightarrow 28-14 \equiv 2\mod{12}\\
+		11+28\equiv 11+4 \equiv 15 \equiv 3 & \rightarrow 11+28 \equiv 3\mod{12}\\
+		14\times28\equiv 2\times4 \equiv 8 & \rightarrow 14\times28 \equiv 8\mod{12}\\
+	\end{split}
+\end{equation}
+Division can not be straightforwardly extended. For example, $4\div 12$ is not defined since $12\equiv 0 \mod 12$. We should first define multiplicative inverse of $\mod k$.
+\vspace{5mm}
+
+\noindent Multiplicative inverse $m^{-1}$ of integer $m$ is defined as:
+\begin{equation}
+	m\times m^{-1} = 1 \mod k
+\end{equation}
+Then we define $a\div b$ in $\mod k$ as multiplication of $a\times b^{-1}$. For example:
+\begin{equation}
+	\begin{split}
+		2^{-1} \mod 7 & \\
+		2 \times 4 \equiv 1 \mod 7 & \rightarrow 2^{-1} \mod 7 = 4 \mod 7
+	\end{split}
+\end{equation}
+Division example:
+\begin{equation}
+6 \div 2 \mod 7 \equiv 6 \times 2^{-1} \equiv 6\times 4 \equiv 24 \equiv 3 \mod 7
+\end{equation}
+Inverse don't always exist, for example, the inverse of $2 \mod 4$

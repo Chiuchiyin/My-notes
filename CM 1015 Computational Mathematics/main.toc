@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.3}Series}{9}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Modular Arithmetic}{11}{chapter.3}%
 \contentsline {subsection}{\numberline {3.0.1}Congruence}{11}{subsection.3.0.1}%
-\contentsline {section}{\numberline {3.1}Operations in Modular Artithmetics}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Operations in Modular Arithmetics}{12}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Trigonometric Relations}{13}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Functions}{15}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Trigonometric Functions}{17}{chapter.6}%
