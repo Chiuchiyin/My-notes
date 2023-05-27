@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  7 MAY 2023 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  26 MAY 2023 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,10 +472,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  (./TeX_files/chapter03.tex
 Chapter 3.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
 [11
 
 
@@ -579,11 +575,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 004DE9339CEE0F9D400EAA14C338F06A;3693.
+(rerunfilecheck)             Checksum: 27037D536B6B58306C23A1D960AF4090;3688.
  ) 
 Here is how much of TeX's memory you used:
  10679 strings out of 478276
- 172833 string characters out of 5850490
+ 172823 string characters out of 5850490
  488700 words of memory out of 5000000
  28595 multiletter control sequences out of 15000+600000
  476857 words of font info for 54 fonts, out of 8000000 for 9000
@@ -599,7 +595,7 @@ c/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
 pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/202
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (33 pages, 168376 bytes).
+Output written on main.pdf (33 pages, 168722 bytes).
 PDF statistics:
  368 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
