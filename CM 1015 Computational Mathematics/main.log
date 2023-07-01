@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  26 MAY 2023 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  1 JUL 2023 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,8 +345,14 @@ LaTeX Warning: Label `eq6' multiply defined.
 
 LaTeX Warning: Label `eq7' multiply defined.
 
-) (./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux)
-(./TeX_files/chapter05.aux) (./TeX_files/chapter06.aux)
+) (./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux
+
+LaTeX Warning: Label `eq1' multiply defined.
+
+
+LaTeX Warning: Label `fig:radian' multiply defined.
+
+) (./TeX_files/chapter05.aux) (./TeX_files/chapter06.aux)
 (./TeX_files/chapter07.aux) (./TeX_files/chapter08.aux)
 (./TeX_files/chapter09.aux) (./TeX_files/chapter10.aux) (./TeX_files/misc.aux))
 \openout1 = `main.aux'.
@@ -427,13 +433,11 @@ e
 
 
 
-] (./main.toc)
+] (./main.toc [3])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] [4
-
-]
+ [4]
 \openout2 = `./TeX_files/chapter01.aux'.
 
 
@@ -445,6 +449,7 @@ been already used, duplicate ignored
                    \relax 
 l.33 \begin{equation}
                       \label{eq3} [1
+
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
@@ -482,77 +487,103 @@ Chapter 3.
 
  (./TeX_files/chapter04.tex
 Chapter 4.
-) [13
+<Assets/angles.png, id=249, 511.9125pt x 167.87718pt>
+File: Assets/angles.png Graphic file (type png)
+<use Assets/angles.png>
+Package pdftex.def Info: Assets/angles.png  used on input line 11.
+(pdftex.def)             Requested size: 390.0pt x 127.89793pt.
+<Assets/radian-circle.png, id=251, 188.705pt x 149.358pt>
+File: Assets/radian-circle.png Graphic file (type png)
+<use Assets/radian-circle.png>
+Package pdftex.def Info: Assets/radian-circle.png  used on input line 28.
+(pdftex.def)             Requested size: 142.26378pt x 112.59935pt.
+[13
 
 
 
 
-]
+ <./Assets/angles.png>]
+<Assets/right-angle-triangle.png, id=260, 383.93437pt x 279.29344pt>
+File: Assets/right-angle-triangle.png Graphic file (type png)
+<use Assets/right-angle-triangle.png>
+Package pdftex.def Info: Assets/right-angle-triangle.png  used on input line 36
+.
+(pdftex.def)             Requested size: 213.39566pt x 155.23555pt.
+<Assets/similar-triangle.png, id=261, 301.125pt x 168.63pt>
+File: Assets/similar-triangle.png Graphic file (type png)
+<use Assets/similar-triangle.png>
+Package pdftex.def Info: Assets/similar-triangle.png  used on input line 53.
+(pdftex.def)             Requested size: 301.12425pt x 168.62958pt.
+)
+Underfull \vbox (badness 2772) has occurred while \output is active []
+
+ [14 <./Assets/radian-circle.png> <./Assets/right-angle-triangle.png>] [15 <./A
+ssets/similar-triangle.png>]
 \openout2 = `./TeX_files/chapter05.aux'.
 
- (./TeX_files/chapter05.tex [14
+ (./TeX_files/chapter05.tex [16
 
 
 
 
 ]
 Chapter 5.
-) [15]
+) [17]
 \openout2 = `./TeX_files/chapter06.aux'.
 
- (./TeX_files/chapter06.tex [16
+ (./TeX_files/chapter06.tex [18
 
 
 
 
 ]
 Chapter 6.
-) [17]
+) [19]
 \openout2 = `./Tex_files/chapter07.aux'.
 
- (./TeX_files/chapter07.tex [18
+ (./TeX_files/chapter07.tex [20
 
 
 
 
 ]
 Chapter 7.
-) [19]
+) [21]
 \openout2 = `./Tex_files/chapter08.aux'.
 
- (./TeX_files/chapter08.tex [20
+ (./TeX_files/chapter08.tex [22
 
 
 
 
 ]
 Chapter 8.
-) [21]
+) [23]
 \openout2 = `./Tex_files/chapter09.aux'.
 
- (./TeX_files/chapter09.tex [22
+ (./TeX_files/chapter09.tex [24
 
 
 
 
 ]
 Chapter 9.
-) [23]
+) [25]
 \openout2 = `./Tex_files/chapter10.aux'.
 
- (./TeX_files/chapter10.tex [24
+ (./TeX_files/chapter10.tex [26
 
 
 
 
 ]
 Chapter 10.
-) [25]
+) [27]
 \openout2 = `./Tex_files/misc.aux'.
 
 
 No file ./Tex_files/misc.tex.
-[26
+[28
 
 
 
@@ -563,7 +594,7 @@ No file ./Tex_files/misc.tex.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [27
+) [29
 
 ] (./main.aux (./TeX_files/preface.aux) (./TeX_files/chapter01.aux)
 (./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
@@ -575,13 +606,13 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 27037D536B6B58306C23A1D960AF4090;3688.
+(rerunfilecheck)             Checksum: 40F98BD805A17CDE69A91FB77D9FF8C0;4249.
  ) 
 Here is how much of TeX's memory you used:
- 10679 strings out of 478276
- 172823 string characters out of 5850490
- 488700 words of memory out of 5000000
- 28595 multiletter control sequences out of 15000+600000
+ 10743 strings out of 478276
+ 174289 string characters out of 5850490
+ 488884 words of memory out of 5000000
+ 28642 multiletter control sequences out of 15000+600000
  476857 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,25n,63p,740b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -595,10 +626,10 @@ c/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
 pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/202
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (33 pages, 168722 bytes).
+Output written on main.pdf (35 pages, 213185 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

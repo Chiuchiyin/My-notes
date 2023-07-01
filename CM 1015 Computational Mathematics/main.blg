@@ -12,15 +12,13 @@ A level-1 auxiliary file: ./Tex_files/chapter07.aux
 A level-1 auxiliary file: ./Tex_files/chapter08.aux
 A level-1 auxiliary file: ./Tex_files/chapter09.aux
 A level-1 auxiliary file: ./Tex_files/chapter10.aux
-A level-1 auxiliary file: ./Tex_files/chapter11.aux
-A level-1 auxiliary file: ./Tex_files/chapter12.aux
 A level-1 auxiliary file: ./Tex_files/misc.aux
 The style file: ieeetr.bst
 I found no \citation commands---while reading file main.aux
 Database file #1: citation.bib
 You've used 0 entries,
             1876 wiz_defined-function locations,
-            491 strings with 3809 characters,
+            489 strings with 3759 characters,
 and the built_in function-call counts, 20 in all, are:
 = -- 0
 > -- 0
